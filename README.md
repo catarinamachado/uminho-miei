@@ -17,3 +17,13 @@
   * Operating Systems
 
   * Programação Orientada a Objetos
+
+* **3rd year 1st semester**
+
+  * Base de Dados
+
+  * Desenvolvimento de Sistemas de Software
+
+  * Sistemas Distribuídos
+
+
