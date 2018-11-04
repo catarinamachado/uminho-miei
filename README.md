@@ -12,18 +12,19 @@
 
 * **2nd year 2nd semester**
 
-  * Calculo de Programas
+  * Calculation of Programs
 
   * Operating Systems
 
-  * Programação Orientada a Objetos
+  * Object-oriented Programming
 
 * **3rd year 1st semester**
 
-  * Base de Dados
+  * Data Base
 
-  * Desenvolvimento de Sistemas de Software
+  * Development of Software Systems
 
-  * Sistemas Distribuídos
+  * Distributed Systems
+
 
 
