@@ -1,16 +1,16 @@
 # University Projects
 
-* **1st year 1st semester**
+* **1.º ano - 1.º Semestre**
 
   * Laboratórios de Informática I
 
-* **1st year 2nd semester**
+* **1.º ano - 2.º Semestre**
 
   * Laboratórios de Informática II
 
-* **2nd year 1st semester**
+* **2.º ano - 1.º Semestre**
 
-* **2nd year 2nd semester**
+* **2.º ano - 2.º Semestre**
 
   * Cálculo de Programas
 
@@ -20,8 +20,7 @@
 
   * Sistemas Operativos
 
-
-* **3rd year 1st semester**
+* **3.º ano - 1.º Semestre**
 
   * Bases de Dados
 
