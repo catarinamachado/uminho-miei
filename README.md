@@ -28,10 +28,10 @@
 
   * [Sistemas Distribuídos](https://github.com/catarinamachado/Cloud-Management-Services)
 
-  * Modelos Determinísticos de Investigação Operacional
+  * [Modelos Determinísticos de Investigação Operacional](https://github.com/catarinamachado/university-stuff/tree/master/3.ano/MDIO)
 
-  * Métodos Numéricos e Otimização não Linear
+  * [Métodos Numéricos e Otimização não Linear](https://github.com/catarinamachado/university-stuff/tree/master/3.ano/MNONL)
 
-  * Redes de Computadores
+  * [Redes de Computadores](https://github.com/catarinamachado/university-stuff/tree/master/3.ano/RC)
 
 
