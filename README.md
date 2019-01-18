@@ -2,29 +2,37 @@
 
 * **1st year 1st semester**
 
-  * Computer Labs I
+  * Laboratórios de Informática I
 
 * **1st year 2nd semester**
 
-  * Computer Labs II
+  * Laboratórios de Informática II
 
 * **2nd year 1st semester**
 
 * **2nd year 2nd semester**
 
-  * Calculation of Programs
+  * Cálculo de Programas
 
-  * Operating Systems
+  * Programação Orientada aos Objetos
 
-  * Object-oriented Programming
+  * Laboratórios de Informática III
+
+  * Sistemas Operativos
+
 
 * **3rd year 1st semester**
 
-  * Data Base
+  * Bases de Dados
 
-  * Development of Software Systems
+  * Desenvolvimento de Sistemas de Software
 
-  * Distributed Systems
+  * Sistemas Distribuídos
 
+  * Modelos Determinísticos de Investigação Operacional
+
+  * Métodos Numéricos e Otimização não Linear
+
+  * Redes de Computadores
 
 
