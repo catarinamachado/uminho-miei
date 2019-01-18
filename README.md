@@ -1,16 +1,16 @@
 # University Projects
 
-* **1.º ano - 1.º Semestre**
+## 1.º ano - 1.º Semestre
 
-  * Laboratórios de Informática I
+  * [Laboratórios de Informática I](https://github.com/catarinamachado/bomberman)
 
-* **1.º ano - 2.º Semestre**
+## 1.º ano - 2.º Semestre
 
-  * Laboratórios de Informática II
+  * [Laboratórios de Informática II](https://github.com/catarinamachado/roguelike)
 
-* **2.º ano - 1.º Semestre**
+## 2.º ano - 1.º Semestre
 
-* **2.º ano - 2.º Semestre**
+## 2.º ano - 2.º Semestre
 
   * Cálculo de Programas
 
@@ -20,7 +20,7 @@
 
   * Sistemas Operativos
 
-* **3.º ano - 1.º Semestre**
+## 3.º ano - 1.º Semestre
 
   * Bases de Dados
 
