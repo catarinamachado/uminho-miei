@@ -12,13 +12,13 @@
 
 ## 2.º ano - 2.º Semestre
 
-  * Cálculo de Programas
+  * [Cálculo de Programas](https://github.com/catarinamachado/CP)
 
-  * Programação Orientada aos Objetos
+  * [Programação Orientada aos Objetos](https://github.com/catarinamachado/JavaFactura)
 
   * [Laboratórios de Informática III](https://github.com/catarinamachado/LI3)
 
-  * Sistemas Operativos
+  * [Sistemas Operativos](https://github.com/catarinamachado/NPS)
 
 ## 3.º ano - 1.º Semestre
 
