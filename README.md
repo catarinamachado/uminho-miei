@@ -1,4 +1,4 @@
-# University Projects
+# University Stuff
 
 ## 1.º ano - 1.º Semestre
 
@@ -16,7 +16,7 @@
 
   * Programação Orientada aos Objetos
 
-  * Laboratórios de Informática III
+  * [Laboratórios de Informática III](https://github.com/catarinamachado/LI3)
 
   * Sistemas Operativos
 
