@@ -22,11 +22,11 @@
 
 ## 3.º ano - 1.º Semestre
 
-  * Bases de Dados
+  * [Bases de Dados](https://github.com/catarinamachado/Events-Workbench)
 
-  * Desenvolvimento de Sistemas de Software
+  * [Desenvolvimento de Sistemas de Software](https://github.com/catarinamachado/Car-Configurator-Hub)
 
-  * Sistemas Distribuídos
+  * [Sistemas Distribuídos](https://github.com/catarinamachado/Cloud-Management-Services)
 
   * Modelos Determinísticos de Investigação Operacional
 
