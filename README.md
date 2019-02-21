@@ -1,4 +1,5 @@
 # University Stuff
+![university-stuff](https://github.com/catarinamachado/university-stuff/blob/master/eng.png?size=6)
 
 ## 1.º ano - 1.º Semestre
 
