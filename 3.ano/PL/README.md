@@ -1,11 +1,11 @@
-<center>**Processamento de Linguagens**</center>
+**Processamento de Linguagens**
 
 * Exercícios Práticos
 
 * Trabalhos Práticos
 
-** Flex
+    + TP1: Flex
 
-** GAWK
+    + TP2: GAWK
 
-** ?
+    + TP3: ?
