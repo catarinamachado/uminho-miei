@@ -36,3 +36,17 @@
   * [Redes de Computadores](https://github.com/catarinamachado/university-stuff/tree/master/3.ano/RC)
 
 
+## 3.º ano - 2.º Semestre
+
+  * Sistemas de Representação de Conhecimento e Raciocínio
+
+  * Comunicações por Computador
+
+  * Processamento de Linguagens
+
+  * Laboratórios de Informática IV
+
+  * Computação Gráfica
+
+  * Métodos Estocásticos de Investigação Operacional
+
