@@ -29,11 +29,11 @@
 
   * [Sistemas Distribuídos](https://github.com/catarinamachado/Cloud-Management-Services)
 
-  * [Modelos Determinísticos de Investigação Operacional](https://github.com/catarinamachado/university-stuff/tree/master/3.ano/MDIO)
+  * [Modelos Determinísticos de Investigação Operacional](https://github.com/catarinamachado/university-stuff/tree/master/3/MDIO)
 
-  * [Métodos Numéricos e Otimização não Linear](https://github.com/catarinamachado/university-stuff/tree/master/3.ano/MNONL)
+  * [Métodos Numéricos e Otimização não Linear](https://github.com/catarinamachado/university-stuff/tree/master/3/MNONL)
 
-  * [Redes de Computadores](https://github.com/catarinamachado/university-stuff/tree/master/3.ano/RC)
+  * [Redes de Computadores](https://github.com/catarinamachado/university-stuff/tree/master/3/RC)
 
 
 ## 3.º ano - 2.º Semestre
@@ -42,7 +42,7 @@
 
   * Comunicações por Computador
 
-  * Processamento de Linguagens
+  * [Processamento de Linguagens](https://github.com/catarinamachado/uminho-miei/tree/master/3/PL)
 
   * Laboratórios de Informática IV
 
