@@ -1,11 +1,11 @@
 **Processamento de Linguagens**
 
-* Exercícios Práticos
-
 * Trabalhos Práticos
 
-    + TP1: Flex
+    + [TP1: Flex](https://github.com/catarinamachado/Angola-Jornal)
 
-    + TP2: GAWK
+    + [TP2: GAWK](https://github.com/catarinamachado/Cartas-setecentistas)
 
-    + TP3: ?
+    + TP3: YACC
+
+* Exercícios Práticos
