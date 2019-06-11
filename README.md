@@ -30,7 +30,7 @@ Para além disso, em algumas das unidades curriculares estão também anexados a
 
   * (17) [Bases de Dados](https://github.com/catarinamachado/Events-Workbench)
 
-  * (19) [Desenvolvimento de Sistemas de Software](https://github.com/catarinamachado/Car-Configurator-Hub)
+  * (19) [Desenvolvimento de Sistemas de Software](https://github.com/catarinamachado/uminho-miei/tree/master/3/DSS)
 
   * (19) [Sistemas Distribuídos](https://github.com/catarinamachado/Cloud-Management-Services)
 
