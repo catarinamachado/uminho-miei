@@ -1,5 +1,10 @@
-# University Stuff
-![university-stuff](https://github.com/catarinamachado/university-stuff/blob/master/eng.png?size=6)
+<p align="center">
+	# University Stuff
+</p>
+
+Ao longo do Mestrado Integrado em Engenharia Informática foram várias as unidades curriculares que exigiam a realização de trabalhos práticos. Desta forma, em seguida, encontra-se a lista dessas unidades curriculares, com a nota que obtivemos no respetivo trabalho prático.
+
+Para além disso, em algumas das unidades curriculares estão também anexados alguns exercícios práticos realizados.
 
 ## 1.º ano - 1.º Semestre
 
