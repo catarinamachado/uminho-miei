@@ -2,9 +2,9 @@
 
 * Trabalhos Práticos
 
-    + [TP1: Flex](https://github.com/catarinamachado/Angola-Jornal)
+    + (19) [TP1: Flex](https://github.com/catarinamachado/Angola-Jornal)
 
-    + [TP2: GAWK](https://github.com/catarinamachado/Cartas-setecentistas)
+    + (18) [TP2: GAWK](https://github.com/catarinamachado/Cartas-setecentistas)
 
     + TP3: YACC
 
