@@ -1,6 +1,6 @@
-<p align="center">
-	# University Stuff
-</p>
+<div align="center">
+	<h1><strong>University Stuff</strong></h1>
+</div>
 
 Ao longo do Mestrado Integrado em Engenharia Informática foram várias as unidades curriculares que exigiam a realização de trabalhos práticos. Desta forma, em seguida, encontra-se a lista dessas unidades curriculares, com a nota que obtivemos no respetivo trabalho prático.
 
