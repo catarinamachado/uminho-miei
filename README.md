@@ -49,7 +49,7 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 
   * [Processamento de Linguagens](https://github.com/catarinamachado/uminho-miei/tree/master/3/PL)
 
-  * Laboratórios de Informática IV
+  * [Laboratórios de Informática IV](https://github.com/catarinamachado/ACE-it---Cooking-assistant)
 
   * Computação Gráfica
 
