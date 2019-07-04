@@ -1,0 +1,7 @@
+1) flex lpis.fl
+
+2) yacc lpis.y -v -d
+
+3) gcc -o lpis y.tab.c
+
+4) ./lpis < exemplo.lpis

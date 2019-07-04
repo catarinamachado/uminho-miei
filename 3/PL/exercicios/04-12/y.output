@@ -1,0 +1,191 @@
+Grammar
+
+    0 $accept: turma $end
+
+    1 turma: TURMA_INICIO ID Alunos
+
+    2 Alunos: Aluno
+    3       | Alunos Aluno
+
+    4 Aluno: ID NOME LNotas
+    5      | ID LNotas
+
+    6 LNotas: INICIO_LISTA Notas FIM_LISTA
+
+    7 Notas: NOTA
+    8      | Notas ',' NOTA
+
+
+Terminals, with rules where they appear
+
+$end (0) 0
+',' (44) 8
+error (256)
+TURMA_INICIO (258) 1
+INICIO_LISTA (259) 6
+FIM_LISTA (260) 6
+ID (261) 1 4 5
+NOME (262) 4
+NOTA (263) 7 8
+
+
+Nonterminals, with rules where they appear
+
+$accept (10)
+    on left: 0
+turma (11)
+    on left: 1, on right: 0
+Alunos (12)
+    on left: 2 3, on right: 1 3
+Aluno (13)
+    on left: 4 5, on right: 2 3
+LNotas (14)
+    on left: 6, on right: 4 5
+Notas (15)
+    on left: 7 8, on right: 6 8
+
+
+state 0
+
+    0 $accept: . turma $end
+
+    TURMA_INICIO  shift, and go to state 1
+
+    turma  go to state 2
+
+
+state 1
+
+    1 turma: TURMA_INICIO . ID Alunos
+
+    ID  shift, and go to state 3
+
+
+state 2
+
+    0 $accept: turma . $end
+
+    $end  shift, and go to state 4
+
+
+state 3
+
+    1 turma: TURMA_INICIO ID . Alunos
+
+    ID  shift, and go to state 5
+
+    Alunos  go to state 6
+    Aluno   go to state 7
+
+
+state 4
+
+    0 $accept: turma $end .
+
+    $default  accept
+
+
+state 5
+
+    4 Aluno: ID . NOME LNotas
+    5      | ID . LNotas
+
+    INICIO_LISTA  shift, and go to state 8
+    NOME          shift, and go to state 9
+
+    LNotas  go to state 10
+
+
+state 6
+
+    1 turma: TURMA_INICIO ID Alunos .
+    3 Alunos: Alunos . Aluno
+
+    ID  shift, and go to state 5
+
+    $default  reduce using rule 1 (turma)
+
+    Aluno  go to state 11
+
+
+state 7
+
+    2 Alunos: Aluno .
+
+    $default  reduce using rule 2 (Alunos)
+
+
+state 8
+
+    6 LNotas: INICIO_LISTA . Notas FIM_LISTA
+
+    NOTA  shift, and go to state 12
+
+    Notas  go to state 13
+
+
+state 9
+
+    4 Aluno: ID NOME . LNotas
+
+    INICIO_LISTA  shift, and go to state 8
+
+    LNotas  go to state 14
+
+
+state 10
+
+    5 Aluno: ID LNotas .
+
+    $default  reduce using rule 5 (Aluno)
+
+
+state 11
+
+    3 Alunos: Alunos Aluno .
+
+    $default  reduce using rule 3 (Alunos)
+
+
+state 12
+
+    7 Notas: NOTA .
+
+    $default  reduce using rule 7 (Notas)
+
+
+state 13
+
+    6 LNotas: INICIO_LISTA Notas . FIM_LISTA
+    8 Notas: Notas . ',' NOTA
+
+    FIM_LISTA  shift, and go to state 15
+    ','        shift, and go to state 16
+
+
+state 14
+
+    4 Aluno: ID NOME LNotas .
+
+    $default  reduce using rule 4 (Aluno)
+
+
+state 15
+
+    6 LNotas: INICIO_LISTA Notas FIM_LISTA .
+
+    $default  reduce using rule 6 (LNotas)
+
+
+state 16
+
+    8 Notas: Notas ',' . NOTA
+
+    NOTA  shift, and go to state 17
+
+
+state 17
+
+    8 Notas: Notas ',' NOTA .
+
+    $default  reduce using rule 8 (Notas)

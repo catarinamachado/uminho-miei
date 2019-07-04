@@ -1,0 +1,12 @@
+ALINEA B)
+
+awk 'BEGIN {FS = "\t"} NR == 2 {for( i = 1; i <= NF; i++) print i":"$i }' inscritos.txt
+awk -F"\t" '{ print $10 }' inscritos.txt -> o tipo está no campo 10
+$12 ~ /Valongo/ -> isto significa que no campo 12 CONTÉM valongo (tem que conter na verdade)
+
+
+ALINEA C)
+BEGIN { FS = "\t" }
+{ print $11":"$5 }   --> assim vemos todos os possíveis
+^ -> força a que comece o match no inicio da linha
+comentários é com o #

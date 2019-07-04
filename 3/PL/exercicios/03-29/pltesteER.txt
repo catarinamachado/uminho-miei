@@ -1,0 +1,35 @@
+<HTML>  
+  <html>
+  <head>
+    <title> Ficheiro para teste do Grep em PL</tile>
+    a + b - 1/7; 5 > 6; a*2 < 4
+    continuacao do exemplo "com dificuldades acrescidas" e mais algumas.
+  </head>
+  <body>
+<A HREF="http://elearning.uminho.pt/~LEIPL">Processamento de Linguagens</A>
+linha "01"
+linha 1
+linha 2
+linha 3
+linha 4
+linha 5
+linha 10  31 222 3313 4451
+  linha 11
+  linha 12
+  linha 13
+  linha 14
+  linha 15
+ linha 20
+ linha 21
+ linha 22
+linha 111
+linha 1191
+linha 4191
+"linha" 541
+linha 2010
+  <A HREF="http://di.uminho.pt/~prh">Pedro Rangel Henriques - homepage</A>
+  <A href="http://di.uminho.pt/~danieladacruz">Daniela Carneiro da Cruz - homepage</A>
+  </body>
+</HTML>
+autor: pedro e daniela
+

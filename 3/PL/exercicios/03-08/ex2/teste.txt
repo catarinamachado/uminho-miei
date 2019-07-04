@@ -1,0 +1,12 @@
+Eu=Xico da Silva.
+Ele=Zézé Bolinha.
+
+Eu: olá bom dia como está, então qual é o seu nome?
+Ele: Bom dia, chamo-me Pedro e ele que é meu amigo chama-se João
+Eu: De onde vem o Pedro?
+Ele: Eu venho do Porto, cidade a visitar. Mas ele é mesmo de Braga.
+Eu: Obrigado. Até breve!
+
+Ele=Olga da Silva Silveira.
+Eu: olá bom dia como está, então qual é o seu nome?
+Ele: Bom dia, chamo-me Pedro e ele que é meu amigo chama-se João

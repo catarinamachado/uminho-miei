@@ -1,0 +1,10 @@
+Descrever uma turma através de uma sigla PL.TP1, tp2, tp3
+E para cada turma quero ter uma ou mais alunos
+Cada aluno tem um identificador de aluno, que é uma string e eventualmente o nome COMPLETO
+
+Permitir para cada turma ter então isto
+
+
+
+- Contar o número de alunos da turma
+- Contar o número de notas de cada aluno

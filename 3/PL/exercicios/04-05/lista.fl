@@ -1,0 +1,15 @@
+%option noyywrap
+
+%%
+
+(?i:LISTA)           {return LISTA;}
+(?i:LIST)            {return LISTA;}
+"{"                  {return LISTA;}
+(?i:FIM)             {return FIM;}
+"}"                  {return FIM;}
+[,]                  {return yytext[0];}
+[a-zA-Z][a-zA-Z0-9]* {return pal;}
+[0-9]+               {yyerror("unknow");}
+.|\n                 {;}
+
+%%

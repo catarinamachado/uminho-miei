@@ -1,0 +1,91 @@
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+netdump:x:34:34:Network Crash Dump user:/var/crash:/bin/bash
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+squid:x:23:23::/var/spool/squid:/sbin/nologin
+webalizer:x:67:67:Webalizer:/var/www/usage:/sbin/nologin
+xfs:x:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+canna:x:39:39:Canna Service User:/var/lib/canna:/sbin/nologin
+wnn:x:49:49:Wnn Input Server:/var/lib/wnn:/sbin/nologin
+jcr:x:710:300::/home/jcr:/bin/bash
+jj:x:750:300::/home/jj:/bin/bash
+jas:x:680:300::/home/jas:/bin/bash
+jgr:x:730:300::/home/jgr:/bin/bash
+prh:x:940:300::/home/prh:/bin/bash
+lrc:x:50001:50001::/home/lrc:/bin/bash
+grl:x:50002:50002:Giovani Rubert Librelotto:/home/grl:/bin/bash
+mi3320:x:50003:50003:Marta Henriques Jacinto:/home/mi3320:/bin/bash
+gva:x:50004:50004:Gustavo Vasconcelos Arnold:/home/gva:/bin/bash
+mp3:x:50005:50005::/home/mp3:/bin/bash
+eprints:x:50006:50006::/home/eprints:/bin/bash
+amanda:x:33:6:Amanda user:/var/lib/amanda:/bin/bash
+mferreira:x:50007:50007:Miguel Ferreira:/home/mferreira:/bin/bash
+pl1:x:50008:50008::/home/pl1:/bin/bash
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+postgres:x:26:26:PostgreSQL Server:/var/lib/pgsql:/bin/bash
+mooshak:x:50009:50009:Mooshak user:/home/mooshak:/bin/bash
+distcache:x:94:94:Distcache:/:/sbin/nologin
+avahi:x:70:70:Avahi daemon:/:/sbin/nologin
+igor:x:50010:50010::/home/el07_g4:/bin/bash
+jcadinha:x:50011:50011::/home/el07_g4:/bin/bash
+nuno:x:50012:50013::/home/el07_g2:/bin/bash
+carlos:x:50013:50013::/home/el07_g2:/bin/bash
+eduardo:x:50014:50014::/home/el07_g3:/bin/bash
+miguel:x:50015:50014::/home/el07_g3:/bin/bash
+sandra:x:50016:50015::/home/el07_g1:/bin/bash
+antsil:x:50017:50015::/home/el07_g1:/bin/bash
+dscape:x:50018:50022::/home/el07_g5:/bin/bash
+apa:x:50019:50019::/home/apa:/bin/bash
+mauro:x:50020:50012::/home/el07_g4/:/bin/bash
+gepl:x:50021:50021::/home/gepl:/bin/bash
+avahi-autoipd:x:941:6022:avahi-autoipd:/var/lib/avahi-autoipd:/sbin/nologin
+mailmaiduser:x:50022:50023::/home/mailmaiduser:/bin/bash
+miguelcosta:x:50023:50024::/home/miguelcosta:/bin/bash
+nunooliveira:x:50024:50025::/home/nunooliveira:/bin/bash
+ritafaria:x:50025:50026::/home/ritafaria:/bin/bash
+g1.2013:x:50026:50027::/home/g1.2013:/bin/bash
+g2.2013:x:50027:50028::/home/g2.2013:/bin/bash
+g3.2013:x:50028:50029::/home/g3.2013:/bin/bash
+g4.2013:x:50029:50030::/home/g4.2013:/bin/bash
+g5.2013:x:50030:50031::/home/g5.2013:/bin/bash
+g6.2013:x:50031:50032::/home/g6.2013:/bin/bash
+ana.queiroz:x:50032:50033::/home/ana.queiroz:/bin/bash
+antonio.fernandes:x:50033:50034::/home/antonio.fernandes:/bin/bash
+g1.2014:x:50034:50035::/home/g1.2014:/bin/bash
+g2.2014:x:50035:50036::/home/g2.2014:/bin/bash
+g3.2014:x:50036:50037::/home/g3.2014:/bin/bash
+g4.2014:x:50037:50038::/home/g4.2014:/bin/bash
+g5.2014:x:50038:50039::/home/g5.2014:/bin/bash
+g6.2014:x:50039:50040::/home/g6.2014:/bin/bash
+g7.2014:x:50040:50041::/home/g7.2014:/bin/bash
+g8.2014:x:50041:50042::/home/g8.2014:/bin/bash
+g9.2014:x:50042:50043::/home/g9.2014:/bin/bash
+g10.2014:x:50043:50044::/home/g10.2014:/bin/bash
+g11.2014:x:50044:50045::/home/g11.2014:/bin/bash

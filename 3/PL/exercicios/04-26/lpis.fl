@@ -1,0 +1,17 @@
+%{
+#include "y.tab.h"
+%}
+%option noyywrap
+
+%%
+
+VAR                     { return DECLARATION_SECTION; }
+CODE                    { return CODE_SECTION; }
+END                     { return TERMINATE_PROGRAM; }
+INTEGER                 { return INTEGER; }
+PRINT                   { return PRINT_FUNCTION; }
+READ                    { return READ_FUNCTION; }
+[\=+/*()\-;%:]          { return yytext[0]; }
+[0-9]+                  { yylval.CONSTINT = atoi(yytext); return NUM; }
+[a-zA-Z]                { yylval.VARNAME = tolower(yytext[0]); return VAR; }
+%%

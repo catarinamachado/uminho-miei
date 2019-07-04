@@ -4,7 +4,7 @@
 
 Ao longo do Mestrado Integrado em Engenharia Informática foram várias as unidades curriculares que exigiam a realização de trabalhos práticos. Desta forma, em seguida, encontra-se a lista dessas unidades curriculares, com a nota que obtivemos no respetivo trabalho prático.
 
-Para além disso, em algumas das unidades curriculares estão também anexados alguns exercícios práticos realizados.
+Para além disso, em algumas das unidades curriculares estão também anexados exercícios práticos realizados.
 
 ## 1.º ano - 1.º Semestre
 

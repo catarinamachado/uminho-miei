@@ -1,0 +1,14 @@
+%option noyywrap
+
+%%
+
+(?i:TURMA)             { return TURMA_INICIO; }
+"("                    { return INICIO_LISTA; }
+")"                    { return FIM_LISTA; }
+[,]                    { return yytext[0]; }
+[A-Za-z][a-zA-Z0-9_]+  { yylval.string = strdup(yytext); return ID; }
+\'[^\']*\'             { yylval.string = strdup(yytext); return NOME; }
+[0-9]+                 { yylval.string = strdup(yytext); return NOTA; }
+.|\n                   { ; }
+
+%%

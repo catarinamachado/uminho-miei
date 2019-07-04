@@ -1,0 +1,38 @@
+No ficheiro eg2.awk:
+
+        {print $1; print NF}
+END     {print "total de linhas = " NR}
+
+---
+
+> gawk -f eg2.awk texto.txt
+$1 significa o primeiro campo de cada registo
+se quisesse a segunda palavra escrevia então $2
+para a último, tinha que fazer $NF
+
+---
+
+No ficheiro eg2.awk:
+
+NR >= 2 && NR <= 4  {for(i=1; i <= NF; i++){print $i}; print NF}
+END {print "total de linhas = " NR}
+
+> gawk -f eg2.awk utilizadores.txt
+com este filtro não ganhamos nada com ele
+
+
+----
+
+No ficheiro eg2.awk:
+
+BEGIN{FS=":"}
+NR >= 2 && NR <= 4  {
+        for(i=1; i <= NF; i++)
+            {print $i};
+        print NF}
+/jcr/,/prh/ {print $1 " - " $(NF-1)}
+END {print "total de linhas = " NR}
+
+> gawk -f eg2.awk utilizadores.txt
+
+a vírgula entre /jcr/ e /prh/ significa : deste até

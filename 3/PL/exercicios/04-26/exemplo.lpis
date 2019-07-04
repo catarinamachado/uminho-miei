@@ -1,0 +1,10 @@
+VAR
+    w : INTEGER;
+    s : INTEGER;
+    u : INTEGER;
+    p : INTEFER
+CODE
+    READ(w);
+    u = w*w;
+    PRINT(U)
+END
