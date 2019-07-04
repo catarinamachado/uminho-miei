@@ -43,7 +43,7 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 
 ## 3.º ano - 2.º Semestre
 
-  * Sistemas de Representação de Conhecimento e Raciocínio
+  * (19) [Sistemas de Representação de Conhecimento e Raciocínio](https://github.com/catarinamachado/SRCR)
 
   * Comunicações por Computador
 
