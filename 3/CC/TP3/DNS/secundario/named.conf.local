@@ -1,0 +1,12 @@
+zone "cc.pt" {
+    type slave;
+    file "db.cc.pt";
+    masters { 10.1.1.1; };
+};
+
+zone "1.1.10.in-addr.arpa" {
+    type slave;
+    file "db.1-1-10.rev";
+    masters { 10.1.1.1; };
+};
+

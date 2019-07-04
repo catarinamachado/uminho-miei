@@ -45,11 +45,11 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 
   * (19) [Sistemas de Representação de Conhecimento e Raciocínio](https://github.com/catarinamachado/SRCR)
 
-  * Comunicações por Computador
+  * (17) [Comunicações por Computador](https://github.com/catarinamachado/uminho-miei/tree/master/3/CC/)
 
-  * [Processamento de Linguagens](https://github.com/catarinamachado/uminho-miei/tree/master/3/PL)
+  * (19,18,19) [Processamento de Linguagens](https://github.com/catarinamachado/uminho-miei/tree/master/3/PL)
 
-  * [Laboratórios de Informática IV](https://github.com/catarinamachado/ACE-it---Cooking-assistant)
+  * (19) [Laboratórios de Informática IV](https://github.com/catarinamachado/ACE-it---Cooking-assistant)
 
   * Computação Gráfica
 

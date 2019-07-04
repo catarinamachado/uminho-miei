@@ -1,0 +1,12 @@
+zone "cc.pt" {
+        type master;
+        file "/home/core/primario/db.cc.pt";
+        allow-transfer { 10.2.2.3; };
+};
+
+zone "1.1.10.in-addr.arpa." {
+        type master;
+        file "/home/core/primario/db.1-1-10.rev";
+        allow-transfer { 10.2.2.3; };
+};
+

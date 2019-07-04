@@ -1,0 +1,47 @@
+$TTL    604800
+@       IN      SOA     dns.cc.pt. grupo24.cc.pt. (
+                  3     ; Serial
+             604800     ; Refresh
+              86400     ; Retry
+            2419200     ; Expire
+             604800 )   ; Negative Cache TTL
+;
+; name servers - NS records
+     IN      NS      dns.cc.pt.
+     IN      NS      dns2.cc.pt.
+
+; SWITCH LAN 1
+Servidor1	IN	A	10.1.1.1
+dns		IN	A 	10.1.1.1
+
+Servidor3       IN      A       10.1.1.3
+www             IN      CNAME   Servidor3
+mail            IN      MX      20	Servidor3
+
+Servidor2	IN	A	10.1.1.2
+pop		IN	CNAME	Servidor2
+imap		IN	CNAME	Servidor2
+mail		IN	MX	10	Servidor3
+
+
+; SWITCH LAN 2
+Plutao		IN	A	10.2.2.1
+
+Neptuno		IN	A	10.2.2.2
+
+Urano		IN	A	10.2.2.3
+dns2		IN	A	10.2.2.3
+
+
+; SWITCH LAN 3
+Alfa		IN	A	10.3.3.1
+Beta		IN	A	10.3.3.2
+Gama		IN	A	10.3.3.3
+
+; SWITCH LAN 4
+Cliente1	IN	A	10.4.4.1
+Grupo24		IN	CNAME	Cliente1
+
+Cliente2	IN	A	10.4.4.2
+
+Cliente3	IN	A	10.4.4.3
