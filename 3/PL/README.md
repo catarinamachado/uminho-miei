@@ -6,6 +6,6 @@
 
     + (18) [TP2: GAWK](https://github.com/catarinamachado/Cartas-setecentistas)
 
-    + TP3: YACC
+    + (19) [TP3: YACC](https://github.com/catarinamachado/Thesaurus)
 
 * Exercícios Práticos
