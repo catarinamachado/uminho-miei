@@ -1,0 +1,12 @@
+<figure>
+    <triangle>
+        <point x="-0.5" y="0" z="-0.5"/>
+        <point x="-0.5" y="0" z="0.5"/>
+        <point x="0.5" y="0" z="-0.5"/>
+    </triangle>
+    <triangle>
+        <point x="-0.5" y="0" z="0.5"/>
+        <point x="0.5" y="0" z="0.5"/>
+        <point x="0.5" y="0" z="-0.5"/>
+    </triangle>
+</figure>

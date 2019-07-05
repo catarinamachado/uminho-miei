@@ -1,0 +1,17 @@
+<scene>
+    <group>
+        <translate period='2000' >
+            <point X='4' Y='6' Z='4'/>
+            <point X='8' Y='12' Z='8'/>
+            <point X='12' Y='10' Z='10'/>
+            <point X='2' Y='8' Z='2'/>
+        </translate>
+        <rotate period='500' axisX='1' axisY='0' axisZ='0' />
+        <models>
+            <model file='../xml/teapot.xml' />
+        </models>
+    </group>
+</scene>
+
+
+

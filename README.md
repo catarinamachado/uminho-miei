@@ -51,7 +51,7 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 
   * (19) [Laboratórios de Informática IV](https://github.com/catarinamachado/ACE-it---Cooking-assistant)
 
-  * Computação Gráfica
+  * (15) [Computação Gráfica](3/CG)
 
   * Métodos Estocásticos de Investigação Operacional
 

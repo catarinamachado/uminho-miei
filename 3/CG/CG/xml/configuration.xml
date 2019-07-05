@@ -1,0 +1,117 @@
+<scene>
+    <group>
+        <group>
+            <!-- SUN -->
+            <scale stretchX='2' stretchY='2' stretchZ='2' />
+            <models>
+                <model file='../../xml/sphere.xml' />
+            </models>
+        </group>
+        <group>
+            <!-- COMET -->
+            <translate period="25000">
+                <point X="60" Y="0" Z="0"/>
+                <point X="42" Y="0" Z="8.4"/>
+                <point X="0" Y="0" Z="12"/>
+                <point X="-42" Y="0" Z="8.4"/>
+                <point X="-60" Y="0" Z="0"/>
+                <point X="-42" Y="0" Z="-8.4"/>
+                <point X="0" Y="0" Z="-12"/>
+                <point X="42" Y="0" Z="-8.4"/>
+            </translate>
+	    <scale stretchX="0.4" stretchY="0.4" stretchZ="0.4" />
+	    <rotate period= "1000" axisX="1" axisY="0" axisZ="1" />
+            <models>
+                <model file='../../xml/teapot.xml' />
+            </models>
+        </group>
+        <group>
+            <!-- PLANETS -->
+            <group>
+                <!-- MERCURY -->
+                <scale stretchX='2' stretchY='1' stretchZ='2' />
+                <rotate period="5000" axisX="0" axisY="1" axisZ="0"/>
+                <scale stretchX='0.5' stretchY='1' stretchZ='0.5' />
+		<group>
+                    <rotate period="5000" axisX="0" axisY="1" axisZ="0"/>
+                    <translate X='5' Y='0' Z='0' />
+                    <scale stretchX='0.22' stretchY='0.22' stretchZ='0.22' />
+                    <models>
+                        <model file='../../xml/sphere.xml' />
+                    </models>
+                </group>
+                <!-- VENUS -->
+                <group>
+                    <rotate period="10000" axisX="0" axisY="1" axisZ="0"/>
+                    <translate X='7' Y='0' Z='0' />
+                    <scale stretchX='0.3' stretchY='0.3' stretchZ='0.3' />
+                    <models>
+                        <model file='../../xml/sphere.xml' />
+                    </models>
+                </group>
+                <!-- EARTH -->
+                <group>
+                    <rotate period="15000" axisX="0" axisY="1" axisZ="0"/>
+                    <translate X='10' Y='0' Z='0' />
+                    <scale stretchX='0.35' stretchY='0.35' stretchZ='0.35' />
+                    <models>
+                        <model file='../../xml/sphere.xml' />
+                    </models>
+                    <group>
+                        <rotate period="2550" axisX="0" axisY="1" axisZ="0"/>
+                        <translate X='1.6' Y='0' Z='0' />
+                        <scale stretchX='0.4' stretchY='0.4' stretchZ='0.4' />
+                        <models>
+                            <model file='../../xml/sphere.xml' />
+                        </models>
+                    </group>
+                </group>
+                <!-- MARS -->
+                <group>
+                    <rotate period="20000" axisX="0" axisY="1" axisZ="0"/>
+                    <translate X='15' Y='0' Z='0' />
+                    <scale stretchX='0.33' stretchY='0.33' stretchZ='0.33' />
+                    <models>
+                        <model file='../../xml/sphere.xml' />
+                    </models>
+                </group>
+                <!-- JUPITER -->
+                <group>
+                    <rotate period="25000" axisX="0" axisY="1" axisZ="0"/>
+                    <translate X='20' Y='0' Z='0' />
+                    <scale stretchX='0.80' stretchY='0.80' stretchZ='0.80' />
+                    <models>
+                        <model file='../../xml/sphere.xml' />
+                    </models>
+                </group>
+                <!-- SATURN -->
+                <group>
+                    <rotate period="30000" axisX="0" axisY="1" axisZ="0"/>
+                    <translate X='25' Y='0' Z='0' />
+                    <scale stretchX='0.45' stretchY='0.45' stretchZ='0.45' />
+                    <models>
+                        <model file='../../xml/sphere.xml' />
+                    </models>
+                </group>
+                <!-- URANUS -->
+                <group>
+                    <rotate period="35000" axisX="0" axisY="1" axisZ="0"/>
+                    <translate X='30' Y='0' Z='0' />
+                    <scale stretchX='0.42' stretchY='0.42' stretchZ='0.42' />
+                    <models>
+                        <model file='../../xml/sphere.xml' />
+                    </models>
+                </group>
+                <!-- NEPTUNE -->
+                <group>
+                    <rotate period="40000" axisX="0" axisY="1" axisZ="0"/>
+                    <translate X='35' Y='0' Z='0' />
+                    <scale stretchX='0.46' stretchY='0.46' stretchZ='0.46' />
+                    <models>
+                        <model file='../../xml/sphere.xml' />
+                    </models>
+                </group>
+            </group>
+        </group>
+    </group>
+</scene>
