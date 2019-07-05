@@ -24,30 +24,30 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 
   * (18) [Laboratórios de Informática III](https://github.com/catarinamachado/LI3)
 
-  * (14) [Sistemas Operativos](https://github.com/catarinamachado/uminho-miei/tree/master/2/SO/NPS)
+  * (14) [Sistemas Operativos](2/SO/NPS)
 
 ## 3.º ano - 1.º Semestre
 
   * (17) [Bases de Dados](https://github.com/catarinamachado/Events-Workbench)
 
-  * (19) [Desenvolvimento de Sistemas de Software](https://github.com/catarinamachado/uminho-miei/tree/master/3/DSS)
+  * (19) [Desenvolvimento de Sistemas de Software](3/DSS)
 
   * (19) [Sistemas Distribuídos](https://github.com/catarinamachado/Cloud-Management-Services)
 
-  * (18) [Modelos Determinísticos de Investigação Operacional](https://github.com/catarinamachado/university-stuff/tree/master/3/MDIO)
+  * (18) [Modelos Determinísticos de Investigação Operacional](3/MDIO)
 
-  * [Métodos Numéricos e Otimização não Linear](https://github.com/catarinamachado/university-stuff/tree/master/3/MNONL)
+  * [Métodos Numéricos e Otimização não Linear](3/MNONL)
 
-  * (16) [Redes de Computadores](https://github.com/catarinamachado/university-stuff/tree/master/3/RC)
+  * (16) [Redes de Computadores](3/RC)
 
 
 ## 3.º ano - 2.º Semestre
 
   * (19) [Sistemas de Representação de Conhecimento e Raciocínio](https://github.com/catarinamachado/SRCR)
 
-  * (17) [Comunicações por Computador](https://github.com/catarinamachado/uminho-miei/tree/master/3/CC/)
+  * (17) [Comunicações por Computador](3/CC/)
 
-  * (19,18,19) [Processamento de Linguagens](https://github.com/catarinamachado/uminho-miei/tree/master/3/PL)
+  * (19,18,19) [Processamento de Linguagens](3/PL)
 
   * (19) [Laboratórios de Informática IV](https://github.com/catarinamachado/ACE-it---Cooking-assistant)
 
