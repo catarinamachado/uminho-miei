@@ -32,7 +32,7 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 
   * (19) [Desenvolvimento de Sistemas de Software](3/DSS)
 
-  * (19) [Sistemas Distribuídos](https://github.com/catarinamachado/Cloud-Management-Services)
+  * (19) [Sistemas Distribuídos](3/SD/CloudManagementServices)
 
   * (18) [Modelos Determinísticos de Investigação Operacional](3/MDIO)
 
