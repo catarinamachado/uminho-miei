@@ -1,0 +1,22 @@
+Este comando lista os ficheiros:
+$ ls
+>>>
+a.out.test
+batata.c
+coisa.c
+<<<
+Agora contamos o número de ocorrências de resultados:
+$| wc
+>>>
+       3       3      28
+<<<
+Que deverá ser igual ao comando executado numa única linha:
+$ ls | wc
+>>>
+       3       3      28
+<<<
+Agora vamos ordenar o resultado do primeiro "ls" e tirar o primeiro elemento:
+$3| sort --reverse | head -1
+>>>
+coisa.c
+<<<

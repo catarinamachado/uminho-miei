@@ -1,0 +1,6 @@
+Este comando lista os ficheiros:
+$ ls
+Agora podemos ordenar estes ficheiros:
+$| sort --reverse 
+E escolher o primeiro:
+$2| head -1

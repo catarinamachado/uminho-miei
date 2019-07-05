@@ -24,7 +24,7 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 
   * (18) [Laboratórios de Informática III](https://github.com/catarinamachado/LI3)
 
-  * (14) [Sistemas Operativos](https://github.com/catarinamachado/NPS)
+  * (14) [Sistemas Operativos](https://github.com/catarinamachado/uminho-miei/tree/master/2/SO/NPS)
 
 ## 3.º ano - 1.º Semestre
 

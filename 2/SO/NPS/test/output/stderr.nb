@@ -1,0 +1,2 @@
+Este comando escreve stderr:
+$ ../input/stderr

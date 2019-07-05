@@ -1,0 +1,2 @@
+echo "ok"
+>&2 echo "error"
