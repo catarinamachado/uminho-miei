@@ -2,8 +2,8 @@
 
 * Trabalhos Práticos
 
-    + [TP1](https://github.com/catarinamachado/uminho-miei/tree/master/3/CC/TP1/Report.pdf)
+    + [TP1](TP1/Report.pdf)
 
-    + [TP2](https://github.com/catarinamachado/uminho-miei/tree/master/3/CC/TP2/GCVFTP)
+    + [TP2](TP2/GCVFTP)
 
-    + [TP3](https://github.com/catarinamachado/uminho-miei/tree/master/3/CC/TP3/DNS)
+    + [TP3](TP3/DNS)

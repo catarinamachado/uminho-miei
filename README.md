@@ -8,7 +8,7 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 
 ## 1.º ano - 1.º Semestre
 
-  * (17) [Laboratórios de Informática I](https://github.com/catarinamachado/bomberman)
+  * (17) [Laboratórios de Informática I](1/LI1/Bomberman)
 
 ## 1.º ano - 2.º Semestre
 

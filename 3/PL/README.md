@@ -8,4 +8,4 @@
 
     + (19) [TP3: YACC](https://github.com/catarinamachado/Thesaurus)
 
-* [Exercícios Práticos](https://github.com/catarinamachado/uminho-miei/tree/master/3/PL/exercicios)
+* [Exercícios Práticos](exercicios)
