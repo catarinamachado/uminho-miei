@@ -12,7 +12,7 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 
 ## 1.º ano - 2.º Semestre
 
-  * (19)  [Laboratórios de Informática II](https://github.com/catarinamachado/roguelike)
+  * (19)  [Laboratórios de Informática II](1/LI2/Roguelike)
 
 ## 2.º ano - 1.º Semestre
 
