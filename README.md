@@ -28,7 +28,7 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 
 ## 3.º ano - 1.º Semestre
 
-  * (17) [Bases de Dados](https://github.com/catarinamachado/Events-Workbench)
+  * (17) [Bases de Dados](3/BD/EventsWorkbench)
 
   * (19) [Desenvolvimento de Sistemas de Software](3/DSS)
 
