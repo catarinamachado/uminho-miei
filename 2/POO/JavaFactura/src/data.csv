@@ -1,0 +1,37 @@
+NextId,21
+ContribuinteIndividual,124307336,fvasnetsov7@oakley.com,Ferris Vasnetsov,0547 Moose Place,123456,2,4,153576645-115789850-141666795-176673568-,124307336-198512089-,1.6000000000000005
+ContribuinteIndividual,153576645,kthrelkeld9@chicagotribune.com,Kristan Threlkeld,76 Heffernan Pass,123456,2,4,153576645-115789850-141666795-176673568-,124307336-198512089-,1.6000000000000005
+ContribuinteIndividual,159939468,ssimner3@nytimes.com,Shaine Simner,3908 Old Shore Hill,123456,2,2,199266069-159939468-,120269166-172779344-,1.4000000000000004
+ContribuinteIndividual,120269166,lcordes0@pcworld.com,Lynnett Cordes,25414 Ilene Trail,123456,2,2,199266069-159939468-,120269166-172779344-,1.4000000000000004
+ContribuinteIndividual,176673568,aanettsc@imageshack.us,Adelbert Anetts,12 Schiller Drive,123456,2,4,153576645-115789850-141666795-176673568-,124307336-198512089-,1.6000000000000005
+ContribuinteIndividual,198512089,gthomerson8@archive.org,Geoff Thomerson,76 Warbler Center,123456,2,4,153576645-115789850-141666795-176673568-,124307336-198512089-,1.6000000000000005
+ContribuinteIndividual,136296364,vscholtz4@wikimedia.org,Vincenty Scholtz,4 Cottonwood Parkway,123456,0,0,?,?,1.0
+ContribuinteIndividual,199266069,hwhitnall2@phoca.cz,Hobie Whitnall,84 Merchant Plaza,123456,2,2,199266069-159939468-,120269166-172779344-,1.4000000000000004
+ContribuinteIndividual,117002848,skort5@umn.edu,Seward Kort,8717 Melvin Alley,123456,2,0,?,117002848-146649952-,1.2000000000000002
+ContribuinteIndividual,141666795,kmollittb@mapy.cz,Krispin Mollitt,192 Lighthouse Bay Junction,123456,2,4,153576645-115789850-141666795-176673568-,124307336-198512089-,1.6000000000000005
+ContribuinteIndividual,172779344,dbazelle1@gov.uk,Darryl Bazelle,12 Hagan Terrace,123456,2,2,199266069-159939468-,120269166-172779344-,1.4000000000000004
+ContribuinteIndividual,115789850,mnollera@4shared.com,Maureen Noller,22660 Dennis Lane,123456,2,4,153576645-115789850-141666795-176673568-,124307336-198512089-,1.6000000000000005
+ContribuinteIndividual,146649952,hantuoni6@washington.edu,Heriberto Antuoni,53202 Arizona Road,123456,2,0,?,117002848-146649952-,1.2000000000000002
+ContribuinteColetivo,895012920,ldangeli0@devhub.com,Abata,2 Kinsman Parkway,123456,-3--5--11-,Beja
+Factura,1,895012920,Abata,2018-05-15,120269166,Bem 1,5,21.99,0-5-
+Factura,2,895012920,Abata,2018-05-14,172779344,Bem 2,0,3.29,0-
+Factura,3,895012920,Abata,2018-04-24,136296364,Bem 3,3,23.99,0-3-
+Factura,4,895012920,Abata,2017-05-24,198512089,Bem 4,11,115.25,0-3-5-11-
+Factura,5,895012920,Abata,2018-02-05,153576645,Bem 5,0,49.99,0-
+Factura,6,895012920,Abata,2018-03-20,176673568,Bem 6,0,32.99,0-
+ContribuinteColetivo,841302260,gbrims1@geocities.jp,Photobug,26 South Drive,123456,-1--3-,Castelo Branco
+Factura,7,841302260,Photobug,2018-04-10,199266069,Bem 7,0,32.55,0-
+Factura,8,841302260,Photobug,2018-04-30,120269166,Bem 8,0,21.99,0-
+Factura,9,841302260,Photobug,2018-05-01,176673568,Bem 9,0,67.99,0-
+ContribuinteColetivo,896030334,zpybus7@arizona.edu,Lazzy,08 Warner Park,123456,-7-,Beja
+Factura,13,896030334,Lazzy,2018-05-01,176673568,Bem 11,7,9.99,?
+Factura,14,896030334,Lazzy,2018-05-08,117002848,Bem 14,7,12.99,?
+ContribuinteColetivo,848962530,hkemson8@merriam-webster.com,Brightbean,8 Meadow Vale Lane,123456,-10--11-,Beja
+Factura,15,848962530,Brightbean,2018-05-01,198512089,Bem 15,10,21.33,0-10-
+Factura,16,848962530,Brightbean,2018-03-13,153576645,Bem 16,0,32.49,0-
+Factura,17,848962530,Brightbean,2018-05-08,124307336,Bem 17,0,32.00,0-
+Factura,18,848962530,Brightbean,2018-05-14,159939468,Bem 18,0,55.21,0-
+Factura,19,848962530,Brightbean,2018-05-01,146649952,Bem 19,11,0.99,0-11-
+ContribuinteColetivo,840507776,okoschek6@histats.com,Youspan,49 Marquette Trail,123456,-10-,Portalegre
+Factura,10,840507776,Youspan,2018-05-09,153576645,Bem 10,10,1340.21,?
+Factura,11,840507776,Youspan,2018-05-23,117002848,Bem 11,10,2144.99,?

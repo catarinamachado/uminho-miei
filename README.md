@@ -20,7 +20,7 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 
   * (19) [Cálculo de Programas](https://github.com/catarinamachado/CP)
 
-  * (19) [Programação Orientada aos Objetos](https://github.com/catarinamachado/JavaFactura)
+  * (19) [Programação Orientada aos Objetos](2/POO/JavaFactura)
 
   * (18) [Laboratórios de Informática III](https://github.com/catarinamachado/LI3)
 
