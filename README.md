@@ -58,4 +58,18 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 
 ## 4.º ano - 1.º Semestre
 
-**Sistemas Inteligentes & Engenharia de Aplicações**
+**Perfil: Sistemas Inteligentes & Engenharia de Aplicações**
+
+  * (18) [Agentes Inteligentes](4/AI)
+
+  * (17) [Aprendizagem e Extração de Conhecimento](4/AEC)
+
+  * (19) [Administração de Bases de Dados](4/ABD)
+
+  * (?) Infraestruturas de Centro de Dados
+
+  * (?) Bases de Dados NoSQL
+
+  * (?) Introdução ao Processamento de Linguagem Natural
+
+  
