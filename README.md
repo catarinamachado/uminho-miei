@@ -53,7 +53,7 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 
   * (15) [Computação Gráfica](3/CG)
 
-  * (19) [Métodos Estocásticos de Investigação Operacional](3/MEIO)
+  * (19) [Modelos Estocásticos de Investigação Operacional](3/MEIO)
 
 
 ## 4.º ano - 1.º Semestre
