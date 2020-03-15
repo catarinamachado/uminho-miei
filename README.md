@@ -58,7 +58,7 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 
 ## 4.º ano - 1.º Semestre
 
-**Perfil: Sistemas Inteligentes & Engenharia de Aplicações**
+**Perfis: Sistemas Inteligentes & Engenharia de Aplicações**
 
   * (18) [Agentes Inteligentes](4/AI)
 
@@ -71,4 +71,16 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
   * (14) [Bases de Dados NoSQL](4/BDNoSQL)
 
   * (17) [Introdução ao Processamento de Linguagem Natural](4/IPLN)
-  
+
+
+## 4.º ano - 1.º Semestre
+
+**Perfis: Sistemas Inteligentes & Engenharia de Aplicações**
+
+* Computação Natural
+
+* Sistemas Autónomos
+
+* Arquiteturas Aplicacionais
+
+* Sistemas Interativos

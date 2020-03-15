@@ -2,4 +2,4 @@
 
 TP2: spaCy (NLP Framework)
 
-* (17.5) Relatório [aqui](Report.pdf).
+* Relatório [aqui](Report.pdf).
