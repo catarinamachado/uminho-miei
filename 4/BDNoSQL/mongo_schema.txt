@@ -1,0 +1,198 @@
+ACTOR: FIRST NAME,
+       LAST NAME,
+       LAST UPDATED,
+       FILM [{
+           TITLE,
+           DESCRIPTION,
+           RELEASE YEAR,
+           RENTAL DURATION,
+           RENTAL_RATE,
+           LENGTH,
+           RATING,
+           REPLACEMENT COST,
+           SPECIAL FEATURES,
+           LAST_UPDATED,
+           CATEGORY[{
+               NAME
+               LAST_UPDATED
+           }],
+           LANGUAGE [{
+               NAME,
+               LAST_UPDATED
+           }]
+       }]
+
+FILM: TITLE,
+      DESCRIPTION,
+      RELEASE YEAR,
+      RENTAL DURATION,
+      RENTAL_RATE,
+      LENGTH,
+      RATING,
+      REPLACEMENT COST,
+      SPECIAL FEATURES,
+      LAST_UPDATED,
+      CATEGORY[{
+          NAME
+          LAST_UPDATED
+      }],
+      LANGUAGE [{
+          NAME,
+          LAST_UPDATED
+      }]
+      ACTOR [{
+          FIRST NAME,
+       LAST NAME,
+       LAST UPDATED
+      }]
+
+STORE: LAST_UPDATED,
+       ADDRESS {
+           ADDRESS,
+           ADDRESS2,
+           DISTRICT,
+           POSTAL CODE,
+           PHONE,
+           LAST_UPDATED,
+           CITY {
+               CITY,
+               LAST_UPDATED,,
+               COUNTRY {
+                   COUNTRY,
+                   LAST_UPDATED
+               }
+           }
+       }
+       MANAGER {
+           ADDRESS {
+               ADDRESS,
+               ADDRESS2,
+               DISTRICT,
+               POSTAL CODE,
+               PHONE,
+               LAST_UPDATED,
+               CITY {
+                   CITY,
+                   LAST_UPDATED,,
+                   COUNTRY {
+                       COUNTRY,
+                       LAST_UPDATED
+                   }
+               }
+       }
+       },
+       STAFF [{ADDRESS {
+                   ADDRESS,
+                   ADDRESS2,
+                   DISTRICT,
+                   POSTAL CODE,
+                   PHONE,
+                   LAST_UPDATED,
+                   CITY {
+                       CITY,
+                       LAST_UPDATED,,
+                       COUNTRY {
+                           COUNTRY,
+                           LAST_UPDATED
+                       }
+                   }
+       }]
+       CUSTOMER_ID,
+           STORE_ID,
+           FIRST_NAME,
+           LAST_NAME,
+           EMAIL,
+           ACTIVE,
+           CREATE_DATE,
+           LAST_UPDATED,
+           ADDRESS {
+               ADDRESS,
+               ADDRESS2,
+               DISTRICT,
+               POSTAL CODE,
+               PHONE,
+               LAST_UPDATED,
+               CITY {
+                   CITY,
+                   LAST_UPDATED,,
+                   COUNTRY {
+                       COUNTRY,
+                       LAST_UPDATED
+                   }
+            }
+            FILM [{ TITLE,
+               DESCRIPTION,
+               RELEASE YEAR,
+               RENTAL DURATION,
+               RENTAL_RATE,
+               LENGTH,
+               RATING,
+               REPLACEMENT COST,
+               SPECIAL FEATURES,
+               LAST_UPDATED,
+               CATEGORY[{
+                   NAME
+                   LAST_UPDATED
+               }],
+               LANGUAGE [{
+                   NAME,
+                   LAST_UPDATED
+               }]
+               ACTOR [{
+                   FIRST NAME,
+                LAST NAME,
+                LAST UPDATED
+               }]
+            }]
+
+
+CUSTOMERS: CUSTOMER_ID,
+           STORE_ID,
+           FIRST_NAME,
+           LAST_NAME,
+           EMAIL,
+           ACTIVE,
+           CREATE_DATE,
+           LAST_UPDATED,
+           ADDRESS {
+               ADDRESS,
+               ADDRESS2,
+               DISTRICT,
+               POSTAL CODE,
+               PHONE,
+               LAST_UPDATED,
+               CITY {
+                   CITY,
+                   LAST_UPDATED,,
+                   COUNTRY {
+                       COUNTRY,
+                       LAST_UPDATED
+                   }
+            }
+            FILM [{ TITLE,
+               DESCRIPTION,
+               RELEASE YEAR,
+               RENTAL DURATION,
+               RENTAL_RATE,
+               LENGTH,
+               RATING,
+               REPLACEMENT COST,
+               SPECIAL FEATURES,
+               LAST_UPDATED,
+               CATEGORY[{
+                   NAME
+                   LAST_UPDATED
+               }],
+               LANGUAGE [{
+                   NAME,
+                   LAST_UPDATED
+               }]
+               ACTOR [{
+                   FIRST NAME,
+                LAST NAME,
+                LAST UPDATED
+               }]
+            }]
+
+            
+

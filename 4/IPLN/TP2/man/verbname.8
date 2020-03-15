@@ -1,0 +1,29 @@
+.\" Manpage for verbname
+.TH man 8 "27 Nov 2019" "0.1" "verbname man page"
+.SH NAME
+verbname \- 
+.SH SYNOPSIS
+verbname [OPTIONS] [FILE]
+.SH DESCRIPTION
+verbname is a Natural Language Processing tool that helps identifiing 
+actions done, and the people that has done them. It can receive verbs 
+or names as input and a text and shearch in the text fo the actions 
+done by those people.
+.SH OPTIONS
+.IP -i input-file
+This is the file with the text that you want to process.
+.IP -v verbs
+The verbs that identify the actions that you want to process.
+.IP -t table
+Show extra information from spacy.
+.IP -sg simplegraph
+Serve simple graph of input.
+.IP -g graph
+Serve normal graph of input.
+.IP -p people
+The people who as done actinos that you want to identify.
+.SH BUGS
+Whith more complex texts the parameters should be changed and best 
+identified.
+.SH AUTHOR
+Catarina Machado, Francisco Lira

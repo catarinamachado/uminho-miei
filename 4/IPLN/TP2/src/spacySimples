@@ -1,0 +1,18 @@
+#!/usr/bin/python3
+
+"""
+spaCy Sample example
+"""
+
+import sys
+import spacy
+nlp = spacy.load("pt_core_news_sm")
+
+file = sys.argv[1]
+
+doc = open(file, "r").read()
+
+ndoc = nlp(doc)
+
+for w in ndoc:
+    print(w.text + '\t' + w.pos_)

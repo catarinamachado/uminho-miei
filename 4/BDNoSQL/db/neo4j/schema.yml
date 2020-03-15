@@ -1,0 +1,54 @@
+# This file is auto-generated from the current state of the database. Instead
+# of editing this file, please use the migrations feature of ActiveNode to
+# incrementally modify your database, and then regenerate this schema definition.
+#
+# Note that this schema.yml definition is the authoritative source for your
+# database schema. If you need to create the application database on another
+# system, you should be using neo4j:schema:load, not running all the migrations
+# from scratch. The latter is a flawed and unsustainable approach (the more migrations
+# you'll amass, the slower it'll run and the greater likelihood for issues).
+#
+# It's strongly recommended that you check this file into your version control system.
+
+---
+:constraints:
+- CONSTRAINT ON ( `neo4j::migrations::schemamigration`:`Neo4j::Migrations::SchemaMigration`
+  ) ASSERT `neo4j::migrations::schemamigration`.migration_id IS UNIQUE
+- CONSTRAINT ON ( `neo4jsakila::actor`:`Neo4jSakila::Actor` ) ASSERT `neo4jsakila::actor`.uuid
+  IS UNIQUE
+- CONSTRAINT ON ( `neo4jsakila::address`:`Neo4jSakila::Address` ) ASSERT `neo4jsakila::address`.uuid
+  IS UNIQUE
+- CONSTRAINT ON ( `neo4jsakila::category`:`Neo4jSakila::Category` ) ASSERT `neo4jsakila::category`.uuid
+  IS UNIQUE
+- CONSTRAINT ON ( `neo4jsakila::city`:`Neo4jSakila::City` ) ASSERT `neo4jsakila::city`.uuid
+  IS UNIQUE
+- CONSTRAINT ON ( `neo4jsakila::country`:`Neo4jSakila::Country` ) ASSERT `neo4jsakila::country`.uuid
+  IS UNIQUE
+- CONSTRAINT ON ( `neo4jsakila::customer`:`Neo4jSakila::Customer` ) ASSERT `neo4jsakila::customer`.uuid
+  IS UNIQUE
+- CONSTRAINT ON ( `neo4jsakila::film`:`Neo4jSakila::Film` ) ASSERT `neo4jsakila::film`.uuid
+  IS UNIQUE
+- CONSTRAINT ON ( `neo4jsakila::language`:`Neo4jSakila::Language` ) ASSERT `neo4jsakila::language`.uuid
+  IS UNIQUE
+- CONSTRAINT ON ( `neo4jsakila::payment`:`Neo4jSakila::Payment` ) ASSERT `neo4jsakila::payment`.uuid
+  IS UNIQUE
+- CONSTRAINT ON ( `neo4jsakila::rental`:`Neo4jSakila::Rental` ) ASSERT `neo4jsakila::rental`.uuid
+  IS UNIQUE
+- CONSTRAINT ON ( `neo4jsakila::staff`:`Neo4jSakila::Staff` ) ASSERT `neo4jsakila::staff`.uuid
+  IS UNIQUE
+- CONSTRAINT ON ( `neo4jsakila::store`:`Neo4jSakila::Store` ) ASSERT `neo4jsakila::store`.uuid
+  IS UNIQUE
+:indexes: []
+:versions:
+- '20191120220600'
+- '20191228124828'
+- '20191228124850'
+- '20191228124915'
+- '20191228125206'
+- '20191228125224'
+- '20191228125234'
+- '20191228125248'
+- '20191228125506'
+- '20191228125624'
+- '20191228125756'
+- '20191228130123'

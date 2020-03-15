@@ -1,0 +1,26 @@
+#!/usr/bin/python3
+
+"""
+spaCy Medium example
+"""
+
+import sys
+from tabulate import tabulate
+import spacy
+
+nlp = spacy.load("pt_core_news_sm")
+file = sys.argv[1]
+doc = open(file, "r").read()
+ndoc = nlp(doc)
+
+matrix = []
+for w in ndoc:
+    if w.pos_ == "VERB":
+        line = []
+        line.append(w.text)
+        line.append(w.lemma_)
+        line.append(w.dep_)
+        line.append(spacy.explain(w.dep_))
+        matrix.append(line)
+
+print(tabulate(matrix,tablefmt='github'))

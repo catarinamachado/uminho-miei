@@ -1,0 +1,93 @@
+#!/usr/bin/env python3
+
+import re
+import sys
+from collections import Counter
+from tabulate import tabulate
+
+def count_match(key, allMatch, option): 
+    total = 0 #retorna o número de palavras em allMatch que tem a key
+    alreadyAppear = 0 #averigua se já encontrou o primeiro match 
+    index = 0
+    startedIndex = 0 #índice onde está o primeiro match
+    for word in allMatch:
+        if (option == "-B" and word.endswith(key)) or (option == "-A" and word.startswith(key)):
+            total += 1            
+            if alreadyAppear == 0:
+                startedIndex = index
+                alreadyAppear = 1
+        index += 1
+    return total, startedIndex
+
+def find_max_length(lst):
+    lst = lst.values()
+    maxList = max(lst, key = len) 
+    maxLength = max(map(len, lst))
+    return maxLength 
+
+#1. Parse arguments
+option = sys.argv[1]
+limit = int(sys.argv[2])
+word = sys.argv[3]
+file = sys.argv[4]
+
+#2. Read input file
+texto = open(file, "r").read()
+
+#3. Find match
+if option == "-A":
+    wordMatch = re.findall(r" %s[@#$;:,\"]? \"?([\wÀ-ú]*)\"?\.?" % word, texto)
+    allMatch = re.findall(r" %s[@#$;:,\"]? (\"?\w*[@#$;:,\"]? \"?\w*?\"?)[\.| |\n]" % word, texto)
+if option == "-B":
+    wordMatch = re.findall(r"\"?([\wÀ-ú]*)[@#$;:,\"]? %s.*?" % word, texto)
+    allMatch = re.findall(r"\.? (\"?\w*[@#$;:,\"]? \"?\w*\"?) %s[, .]" % word, texto)
+
+allMatch = list(map(lambda x: re.sub('[@#$;:,\"]', '', x), allMatch)) #retira os simbolos @#$," da string
+
+wordMatch.sort()
+allMatch.sort()
+
+#4. Count and pick 'limit' most common
+count = Counter(wordMatch)
+mostCommon = count.most_common(limit)
+mostCommon.sort()
+
+#5. Arrange allMatch
+di = {}
+for key in mostCommon:
+        matches, index = count_match(key[0], allMatch, option) #quantas vezes tem 2 ou mais palavras a seguir,local onde a word está no array ordenada no caso da opção A
+        di[key] = Counter(allMatch[index:(index+matches)]).most_common()
+
+#6. Print pretty
+if di != {}:
+    matrix = []
+    firstline = []
+
+    if option == "-A":
+        firstline.append(word)
+
+    for phrase,rep in mostCommon:
+        firstline.append(phrase + ' (' + str(rep) + ')')
+    matrix.append(firstline)
+
+    if option == "-B":
+        firstline.append(word)
+
+    for i in range(find_max_length(di)):
+        line = []
+        if option == "-A": #primeira coluna só com a word procurada
+            line.append('')
+        for key in di:
+            ph = di[key]
+            if i < len(ph):
+                pair = ph[i]
+                line.append(pair[0] + ' (' + str(pair[1]) + ')')
+            else:
+                line.append('')
+        if option == "-B": #última coluna só com a word procurada
+            line.append('')
+
+        matrix.append(line)
+
+#Resposta: 
+    print(tabulate(matrix, tablefmt='presto'))

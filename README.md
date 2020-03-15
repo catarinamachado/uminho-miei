@@ -66,10 +66,9 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 
   * (19) [Administração de Bases de Dados](4/ABD)
 
-  * (?) Infraestruturas de Centro de Dados
+  * (19) [Infraestruturas de Centro de Dados](4/ICD)
 
-  * (?) Bases de Dados NoSQL
+  * (14) [Bases de Dados NoSQL](4/BDNoSQL)
 
-  * (?) Introdução ao Processamento de Linguagem Natural
-
+  * (17) [Introdução ao Processamento de Linguagem Natural](4/IPLN)
   

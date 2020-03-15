@@ -1,0 +1,121 @@
+#!/usr/bin/python3
+
+"""
+spaCy Advanced example
+"""
+
+import argparse
+import sys
+from tabulate import tabulate
+import spacy
+from spacy.matcher import Matcher
+from spacy import displacy
+
+def getOptions(args=sys.argv[1:]):
+    parser = argparse.ArgumentParser(description="Parses command.")
+    parser.add_argument('-v', "--verbs", nargs='*', help='Insert one or more verbs.')
+    parser.add_argument('-p', "--people", nargs='*', help='Insert one or more people names.')
+    parser.add_argument("-t", "--table", help="If you want to show table.", action='store_true')
+    parser.add_argument("-sg", "--simplegraph", help="If you want to serve simple graph.", action='store_true')
+    parser.add_argument("-g", "--graph", help="If you want to serve graph.", action='store_true')
+    parser.add_argument("-i", "--input", help="Your input file.")
+    options = parser.parse_args(args)
+    return options
+
+options = getOptions()
+doc = open(options.input, "r").read()
+nlp = spacy.load("pt_core_news_sm")
+ndoc = nlp(doc)
+
+list_pattern = []
+
+#pattern: nome próprio/conjunção + verbo + ... + nome/nome próprio/advérbio
+pattern = [
+    {'POS':{'IN':['PROPN', 'CCONJ']}},
+    {'POS': 'VERB'},
+    {'POS':{'IN':['ADP','DET']}, 'OP':'?'},
+    {'POS':{'IN':['ADP','DET']}, 'OP':'?'},
+    {'POS':{'IN':['ADP','DET']}, 'OP':'?'}, 
+    {'POS':{'IN':['NOUN','PROPN','ADV']}}, #ADV do "falou muito"
+    {'POS':{'IN':['PUNCT', 'CCONJ']}}
+]
+list_pattern.append(pattern)    
+
+matcher = Matcher(nlp.vocab)
+matcher.add("vn", None, *list_pattern) #depois de criados os patterns têm de ser adicionados ao matcher
+matches = matcher(ndoc) #encontra os matches que há no doc tendo em conta os patterns que foram adicionados
+
+if options.simplegraph:
+    displacy.serve(ndoc, style="dep") ## Simple dependency visualizer
+
+if options.graph:
+    sentence_spans = list(ndoc.sents) ## More complex dependency visualizer
+    displacy.serve(sentence_spans, style="dep")
+
+verbname = {}
+tmp = None
+
+#para cada match tem o id o inicio do match e o fim. Cria um span com essa info e imprime essa "frase"
+for match_id, start, end in matches:
+    matched_span = ndoc[start:end]
+    for w in matched_span:
+        if w.pos_ == "VERB":
+            for child in w.children:
+                if child.dep_ == "nsubj" and child.pos_ == "PROPN":
+                    try :
+                        verbname[w.lemma_].append((child,matched_span))
+                    except:
+                        verbname[w.lemma_] = ([(child,matched_span)])
+                elif child.dep_ == "cc" and child.pos_ == "CCONJ":
+                    if tmp != None:
+                        for n in tmp:
+                            if n.pos_ == "PROPN":
+                                try :
+                                    verbname[w.lemma_].append((n,matched_span))
+                                except:
+                                    verbname[w.lemma_] = ([(n,matched_span)])
+    tmp = matched_span
+
+tmp = {}
+if options.verbs != None:
+    for v in options.verbs:
+        tmp[v] = verbname[v]
+    verbname = tmp
+
+tmp = {}
+if options.people != None:
+    for p in options.people:
+        for key,values in verbname.items():
+            for v in values:
+                if str(v[0]) == p:
+                    try :
+                        tmp[key].append(v)
+                    except:
+                        tmp[key] = ([v])
+    verbname = tmp
+
+print("FRASES:")
+frases = []
+for key,values in verbname.items():
+    for v in values:
+        print("-",v[1])
+        frases.append(v[1])
+
+if options.table:
+    print("\n")
+    matrix = []
+    for frase in frases:
+        for w in frase:
+            if w.pos_ != "PUNCT":
+                line = []
+                line.append(w.text)
+                line.append(w.lemma_)
+                line.append(w.pos_)
+                line.append(spacy.explain(w.pos_))
+                line.append(w.dep_)
+                line.append(spacy.explain(w.dep_))
+                matrix.append(line)
+        matrix.append("")
+
+    headers=['Texto','Lemma','Classe Gramatical','Explicação C.G.','','Explicação']
+    print(tabulate(matrix,headers,tablefmt='fancy_grid'))
