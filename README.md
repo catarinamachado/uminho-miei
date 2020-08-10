@@ -77,10 +77,12 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 
 **Perfis: Sistemas Inteligentes & Engenharia de Aplicações**
 
-* Computação Natural
+* (18,19) [Computação Natural](4/CN)
 
 * Sistemas Autónomos
 
 * Arquiteturas Aplicacionais
 
 * Sistemas Interativos
+
+* (17) [Laboratório em Engenharia Informática](https://github.com/machadovilaca/LHA)
