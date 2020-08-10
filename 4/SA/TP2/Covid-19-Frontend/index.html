@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="COVID-19 World Analyser">
+    <title>COVID-19 World Analyser</title>
+    <!-- <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Data table -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
+</head>
+
+<body>
+    <div id="progress">
+        <img id="loading-image" src="img/loading.gif" alt="Loading..." />
+    </div>
+    <div id='page' class="container-fluid">
+        <div class="row space-top-2">
+            <div class="col-md-12 d-flex justify-content-center">
+                <h1>COVID-19 World Analyser</h1>
+            </div>
+        </div>
+        <div class="row space-top-3-5 space-left-7">
+            <div class="col-md-3 d-flex justify-content-center">
+                <!-- INICIO TABELA ESQUERDA -->
+                <table id="dtTable" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                      <th scope="col">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" class="check" id="checkAll" onchange="updateDate()">
+                            </label>
+                        </div>
+                      </th>
+                      <th scope="col" class="align-middle">Nome</th>
+                      <th scope="col" class="align-middle">Total infetados</th>
+                    </tr>
+                </thead>
+                <tbody id="table-data">                         
+                </tbody>
+                </table>
+            </div>
+            <!-- FIM TABELA ESQUERDA -->
+
+            <!-- INICIO GRAFICOS CENTRAIS -->
+            <div class="col-md-5 d-flex justify-content-center align-middle">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12" id="graph-container">
+                            <canvas id="lineChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="row space-top-4">
+                        <div class="col-md-6">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Total infetados/dia
+                                <span class="caret"></span>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" data-value="Total_Cases" onclick="changeGraphicType('Total_Cases')">Total infetados/dia</a>
+                                    <a class="dropdown-item" data-value="Total_Deaths" onclick="changeGraphicType('Total_Deaths')">Total mortes/dia</a>
+                                    <a class="dropdown-item" data-value="Total_Recoveries" onclick="changeGraphicType('Total_Recoveries')">Total recuperados/dia</a>
+                                    <a class="dropdown-item" data-value="New_Daily_Cases" onclick="changeGraphicType('New_Daily_Cases')">Novos casos/dia</a>
+                                    <a class="dropdown-item" data-value="New_Daily_Deaths" onclick="changeGraphicType('New_Daily_Deaths')">Novas mortes/dia</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownNrDays" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Previsão 7 dias
+                                <span class="caret"></span>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownNrDays">
+                                    <a class="dropdown-item" data-value="7dias" onclick="changeGraphicNrDays(7)">Previsão 7 dias</a>
+                                    <a class="dropdown-item" data-value="15dias" onclick="changeGraphicNrDays(15)">Previsão 15 dias</a>
+                                    <a class="dropdown-item" data-value="30dias" onclick="changeGraphicNrDays(30)">Previsão 30 dias</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FIM GRAFICOS CENTRAIS -->
+
+            <!-- INICIO MAPA MUNDO -->
+            <div class="col-md-4 d-flex justify-content-center space-right-7">
+                 <div class="container-fluid">
+                    <div class="row">
+                        <div class="my-col-md">
+                            <div class="cases">
+                                <div class="map"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FIM MAPA MUNDO -->
+        </div>
+
+        <!-- INICIO TABELA BOTTOM -->
+        <div class="row justify-content-center">
+            <div class="col-md-4 justify-content-center">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                          <th scope="col">Total infetados</th>
+                          <th scope="col">+Hoje</th>
+                          <th scope="col">Recuperados</th>
+                          <th scope="col">Mortes</th>
+                        </tr>
+                      </thead>
+                    <tbody>
+                        <tr class="m-0">
+                            <td class="align-middle" id="totalGlobal"></td>
+                            <td class="align-middle" id="hojeGlobal"></td>
+                            <td class="align-middle" id="curedGlobal"></td>
+                            <td class="align-middle" id="deathsGlobal"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- FIM TABELA BOTTOM -->
+    </div>
+
+    <!-- BEGIN FOOTER-->
+    <footer class="justify-content-right">
+        <div class="fixed-bottom space-bottom-1 space-right-3" id="data">
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/script.js"></script>
+    <!-- Data tables -->
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+    <!-- Mapel -->
+    <script src="https://cdn.jsdelivr.net/npm/raphael@2.3.0/raphael.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-mousewheel@3.1.13/jquery.mousewheel.min.js"></script>
+    <script src="mapael/jquery.mapael.js"></script>
+    <script src="mapael/maps/world_countries_miller.min.js"></script>
+</body>
+</html>
+

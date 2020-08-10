@@ -1,0 +1,20 @@
+    def _initiate_model_portugal(self, field, trainX):
+        if field == 'Total_Cases':
+            model_ls = Sequential()
+            model_ls.add(LSTM(8,return_sequences=True, input_shape=(trainX.shape[1],trainX.shape[2])))
+            #model_ls.add(Dropout(0.2))
+            model_ls.add(LSTM(8))
+            #model_ls.add(Dropout(0.5))
+            model_ls.add(Dense(1, activation='linear'))
+            model_ls.compile(loss='mean_absolute_error', optimizer='sgd')
+            self.patience = 100
+        else:
+            model_ls = Sequential()
+            model_ls.add(LSTM(18,return_sequences=True, input_shape=(trainX.shape[1],trainX.shape[2])))
+            model_ls.add(Dropout(0.2))
+            model_ls.add(LSTM(18))
+            model_ls.add(Dropout(0.5))
+            model_ls.add(Dense(1, activation='linear'))
+            model_ls.compile(loss='mean_absolute_error', optimizer='sgd')
+            self.patience = 200
+        self.model = model_ls

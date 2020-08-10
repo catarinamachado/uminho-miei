@@ -79,7 +79,7 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 
 * (18,19) [Computação Natural](4/CN)
 
-* Sistemas Autónomos
+* (17) [Sistemas Autónomos](4/SA)
 
 * Arquiteturas Aplicacionais
 
