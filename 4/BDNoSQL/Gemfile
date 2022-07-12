@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem "activerecord", "~> 6.0", ">= 6.0.1"
+gem "activerecord", "~> 6.0"
 gem "mysql2"
 gem "composite_primary_keys"
 gem "mongo", "~> 2.11"
