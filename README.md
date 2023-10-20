@@ -86,3 +86,15 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 * (18) [Sistemas Interativos](https://github.com/catarinamachado/serve.me) - Projeto de EA
 
 * (17) [Laboratório em Engenharia Informática](https://github.com/machadovilaca/LHA)
+
+## 5.º ano 
+
+* RPD
+
+* Apresentação RPD
+
+* (18) Dissertação
+
+* Apresentação da Dissertação
+
+
