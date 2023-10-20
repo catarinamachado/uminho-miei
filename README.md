@@ -95,6 +95,6 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 
 * (18) Dissertação
 
-* Apresentação da Dissertação
+* [Apresentação da Dissertação](https://github.com/catarinamachado/uminho-miei/blob/master/ApresentacaoDissertacao.pdf)
 
 
