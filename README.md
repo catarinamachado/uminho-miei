@@ -73,7 +73,7 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
   * (17) [Introdução ao Processamento de Linguagem Natural](4/IPLN)
 
 
-## 4.º ano - 1.º Semestre
+## 4.º ano - 2.º Semestre
 
 **Perfis: Sistemas Inteligentes & Engenharia de Aplicações**
 
