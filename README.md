@@ -89,11 +89,11 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 
 ## 5.º ano 
 
-* RPD
+* [RPD](https://github.com/catarinamachado/uminho-miei/blob/master/RPD.pdf)
 
 * [Apresentação RPD](https://github.com/catarinamachado/uminho-miei/blob/master/ApresentacaoRPD.pdf)
 
-* (18) Dissertação
+* (18) [Dissertação](https://github.com/catarinamachado/uminho-miei/blob/master/Dissertacao.pdf)
 
 * [Apresentação da Dissertação](https://github.com/catarinamachado/uminho-miei/blob/master/ApresentacaoDissertacao.pdf)
 
