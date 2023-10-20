@@ -91,7 +91,7 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
 
 * RPD
 
-* Apresentação RPD
+* [Apresentação RPD](https://github.com/catarinamachado/uminho-miei/blob/master/ApresentacaoRPD.pdf)
 
 * (18) Dissertação
 
